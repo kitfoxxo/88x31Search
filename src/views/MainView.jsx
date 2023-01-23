@@ -12,7 +12,7 @@ export default () => {
             <p className="text-xs">Built by <a href="http://kitcousins.onrender.com" target="_blank" className="underline">Kit</a>! Click buttons to download!</p>
             <SearchBar onChange={setSearchTerm} />
             <SearchResults
-                searchTerm={searchTerm}
+                searchTerm={searchTerm.toLowerCase()}
                 buttons={ButtonsJSON}
             />
         </div>
