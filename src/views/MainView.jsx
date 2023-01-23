@@ -8,8 +8,8 @@ export default () => {
 
     return(
         <div className="flex flex-col items-center gap-5 p-3 pt-5 lg:p-10 max-w-6xl m-auto">
-            <h1 className="text-3xl lg:text-5xl">GIF Button Search!</h1>
-            <p className="text-xs">Built by <a href="http://kitcousins.onrender.com" target="_blank" className="underline">Kit</a>!</p>
+            <h1 className="text-3xl lg:text-5xl">88x31 Button Search!</h1>
+            <p className="text-xs">Built by <a href="http://kitcousins.onrender.com" target="_blank" className="underline">Kit</a>! Click buttons to download!</p>
             <SearchBar onChange={setSearchTerm} />
             <SearchResults
                 searchTerm={searchTerm}
